@@ -2,12 +2,13 @@ import React from "react";
 import { FaWhatsapp, FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const Icons = () => {
+  const phoneNumber = "2348023927736"
   return (
     <div className="flex gap-6 text-3xl justify-center items-center mt-10 mb-7">
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/+234 802 392 7736"
+        href={`https://wa.me/${phoneNumber}`}
         target="_blank"
         rel="noopener noreferrer"
         className="text-green-500 hover:scale-110 transition duration-300"
@@ -25,7 +26,7 @@ const Icons = () => {
 
       {/* Email */}
       <a
-        href="mailto:bensonbob405@gmail.com"
+        href="mailto:Israelibeabuchi904@gmail.com"
         className="text-red-500 hover:scale-110 transition duration-300"
       >
         <FaEnvelope />
