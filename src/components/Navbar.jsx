@@ -41,21 +41,7 @@ const Navbar = () => {
           <button className="bg-primary hidden md:inline px-5 py-2 rounded text-white">
             Get Quote
           </button>
-        </div>
-        <div className="absolute sm:hidden ">
-          <div className="flex items-center gap-4">
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="bg-gray-800 text-white px-3 py-1 rounded"
-          >
-            {darkMode ? "Light" : "Dark"}
-          </button>
-
-          <button className="bg-primary hidden md:inline px-5 py-2 rounded text-white">
-            Get Quote
-          </button>
-        
-          </div>
+       
         <div 
           className="md:hidden text-2xl  absolute z-30 top-2 right-2 cursor-pointer"
           onClick={handleOpen}
